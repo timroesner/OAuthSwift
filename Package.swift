@@ -12,9 +12,9 @@ let package = Package(
 			targets: ["OAuthSwift"]),
 	],
 	targets: [
-		.target(
-			name: "OAuthSwift",
-			dependencies: []),
+		.target(name: "OAuthSwift",
+                dependencies: [],
+                path: "Sources"),
 		.testTarget(
 			name: "OAuthSwiftTests",
 			dependencies: ["OAuthSwift"]),
